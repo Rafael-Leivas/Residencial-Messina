@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    font-family: mont;
+    margin-left: 20px;
+}
+
+nav a{
+    text-decoration: none;
+}
