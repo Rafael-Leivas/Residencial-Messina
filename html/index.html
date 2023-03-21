@@ -4,28 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <title>Res. Messina</title>
 </head>
 <body>
     
-    <header class="nav-bar">
-        <div>
-            <img src="../img/Logo_nav-bar.png">
-        </div>
-        
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Comodos</a></li>
-                <li><a href="#">Contatos</a></li>
-            </ul>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="../img/Logo_nav-bar.png" alt="">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">WhatsAap</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="../img/menu_white_36dp.svg" alt=""></button>
+            </div>
         </nav>
-        
-        <div>
-            <a href="#">WhatsAap</a>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">WhatsAap</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="introduction">
+            <div class="left">
+                <h1>Res. Messina -- O residêncial para você e sua família curtir o melhor de suas férias</h1>
+                <p>Contamos com uma ampla infraestrutura para assim melhor atender todos</p>
+            </div>
+
+            <div class="carrossel-apts">
+                <img src="../img/carrossel/sofa-redimenciando.jpg" alt="">
+            </div>
         </div>
     
-    </header>
+    </main>
+
+    <script src="../js/script.js"></script>
 </body>
 </html>
